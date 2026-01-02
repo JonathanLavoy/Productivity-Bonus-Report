@@ -5,5 +5,3 @@ The data for this report comes from exported reports containing a list of charge
 At the bottom of the report there is a breakdown of the calculations that is displayed by concatenating the values from above cells to give a better idea of how these amounts were calculated. 
 
 Please also note that you can easily adjust the thresholds and percentage values in this report by replacing the numbers in the grid in the bottom left of the overview page. 
-
-This report is typically updated monthly, however a more thorough update is done quarterly when the report is ready to be shared and viewed. 
