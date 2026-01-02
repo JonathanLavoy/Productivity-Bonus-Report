@@ -1,5 +1,9 @@
 This report is an example of a productivity report used to determine employee bonuses based on their productivity. The general format for calculating the bonus is to sum their collections each month and once their cumulative collections reach a specified threshold, a percentage of the amount in the threshold is their bonus. Additionally, the percentage that they retain from their collections increases once they reach the next threshold. For example in the example grid used in this report, all collections above $350,000 and below $450,000, the employee would get 25% of that amount. If they had $450,000 or more in collections, that would mean they would receive $25,000 from this threshold. If they had more than $450,000, they would receive the $25,000 from that threshold along with the percentage they are due from the next thresholds.
+
 The data for this report comes from exported reports containing a list of charges and payments collected for the charges for work done by the employee. Formulas are added to extract the total values of charges and collections, along with subtracting refunds from the collections amount. These total values are then added to the main overview page in the respective cell for each month. Calculations are then done automatically using formulas to determine the correct amount due in each threshold as well as the total due for the quarter.
+
 At the bottom of the report there is a breakdown of the calculations that is displayed by concatenating the values from above cells to give a better idea of how these amounts were calculated. 
+
 Please also note that you can easily adjust the thresholds and percentage values in this report by replacing the numbers in the grid in the bottom left of the overview page. 
+
 This report is typically updated monthly, however a more thorough update is done quarterly when the report is ready to be shared and viewed. 
